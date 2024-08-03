@@ -1,8 +1,8 @@
 package command
 
 import (
-	"github.com/go-olive/olive/app/tooling/olive-admin/commands"
-	"github.com/go-olive/olive/business/sys/database"
+	"github.com/WLaoDuo/olive/app/tooling/olive-admin/commands"
+	"github.com/WLaoDuo/olive/business/sys/database"
 	"github.com/spf13/cobra"
 )
 

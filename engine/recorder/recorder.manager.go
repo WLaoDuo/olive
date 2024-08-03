@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/WLaoDuo/olive/engine/config"
 	"github.com/coocood/freecache"
-	"github.com/go-olive/olive/engine/config"
 	"github.com/sirupsen/logrus"
 )
 

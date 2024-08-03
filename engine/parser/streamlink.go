@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"sync"
 
-	l "github.com/go-olive/olive/engine/log"
+	l "github.com/WLaoDuo/olive/engine/log"
 	"github.com/sirupsen/logrus"
 )
 

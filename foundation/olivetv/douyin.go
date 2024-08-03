@@ -10,7 +10,7 @@ import (
 
 	"github.com/iawia002/lux/request"
 
-	"github.com/go-olive/olive/foundation/olivetv/model"
+	"github.com/WLaoDuo/olive/foundation/olivetv/model"
 	"github.com/imroc/req/v3"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/tidwall/gjson"

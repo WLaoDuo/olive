@@ -3,7 +3,7 @@ package dispatcher
 import (
 	"errors"
 
-	"github.com/go-olive/olive/engine/enum"
+	"github.com/WLaoDuo/olive/engine/enum"
 	"github.com/sirupsen/logrus"
 )
 

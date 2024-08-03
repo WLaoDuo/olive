@@ -1,9 +1,9 @@
 package recorder
 
 import (
-	"github.com/go-olive/olive/engine/config"
-	"github.com/go-olive/olive/engine/dispatcher"
-	"github.com/go-olive/olive/engine/enum"
+	"github.com/WLaoDuo/olive/engine/config"
+	"github.com/WLaoDuo/olive/engine/dispatcher"
+	"github.com/WLaoDuo/olive/engine/enum"
 	"github.com/sirupsen/logrus"
 )
 

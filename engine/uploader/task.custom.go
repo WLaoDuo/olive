@@ -6,8 +6,8 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/go-olive/olive/engine/util"
-	"github.com/go-olive/olive/foundation/biliup"
+	"github.com/WLaoDuo/olive/engine/util"
+	"github.com/WLaoDuo/olive/foundation/biliup"
 	"github.com/sirupsen/logrus"
 )
 

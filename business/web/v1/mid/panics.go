@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"runtime/debug"
 
-	"github.com/go-olive/olive/foundation/web"
+	"github.com/WLaoDuo/olive/foundation/web"
 )
 
 // Panics recovers from panics and converts the panic to an error so it is

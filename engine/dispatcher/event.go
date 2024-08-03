@@ -1,6 +1,6 @@
 package dispatcher
 
-import "github.com/go-olive/olive/engine/enum"
+import "github.com/WLaoDuo/olive/engine/enum"
 
 type Event struct {
 	Type   enum.EventTypeID

@@ -1,6 +1,8 @@
-module github.com/go-olive/olive
+module github.com/WLaoDuo/olive
 
-go 1.20
+go 1.21
+
+toolchain go1.21.6
 
 require (
 	github.com/Masterminds/sprig v2.22.0+incompatible

@@ -3,7 +3,7 @@ package olivetv_test
 import (
 	"testing"
 
-	"github.com/go-olive/olive/foundation/olivetv"
+	"github.com/WLaoDuo/olive/foundation/olivetv"
 )
 
 func TestDouyin_Snap(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/go-olive/olive/business/sys/database"
+	"github.com/WLaoDuo/olive/business/sys/database"
 	"github.com/jmoiron/sqlx"
 	"go.uber.org/zap"
 )

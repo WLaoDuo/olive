@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-olive/olive/business/core/show"
-	"github.com/go-olive/olive/business/data/dbtest"
-	"github.com/go-olive/olive/foundation/docker"
+	"github.com/WLaoDuo/olive/business/core/show"
+	"github.com/WLaoDuo/olive/business/data/dbtest"
+	"github.com/WLaoDuo/olive/foundation/docker"
 	"github.com/google/go-cmp/cmp"
 )
 

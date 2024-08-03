@@ -16,7 +16,7 @@ COPY . /ctl
 
 # Build the binary.
 WORKDIR /ctl
-RUN go build -ldflags "-X github.com/go-olive/olive/command.build=${BUILD_REF}"
+RUN go build -ldflags "-X github.com/WLaoDuo/olive/command.build=${BUILD_REF}"
 
 # Run the Go Binary in Alpine.
 FROM alpine:3.17

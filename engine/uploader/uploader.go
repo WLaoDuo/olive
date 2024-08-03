@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-olive/olive/engine/config"
+	"github.com/WLaoDuo/olive/engine/config"
 	"github.com/sirupsen/logrus"
 )
 

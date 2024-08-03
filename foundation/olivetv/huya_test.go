@@ -3,7 +3,7 @@ package olivetv_test
 import (
 	"testing"
 
-	tv "github.com/go-olive/olive/foundation/olivetv"
+	tv "github.com/WLaoDuo/olive/foundation/olivetv"
 )
 
 func TestHuya_Snap(t *testing.T) {

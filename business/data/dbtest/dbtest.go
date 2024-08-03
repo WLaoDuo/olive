@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-olive/olive/business/data/dbschema"
-	"github.com/go-olive/olive/business/sys/database"
-	"github.com/go-olive/olive/foundation/docker"
+	"github.com/WLaoDuo/olive/business/data/dbschema"
+	"github.com/WLaoDuo/olive/business/sys/database"
+	"github.com/WLaoDuo/olive/foundation/docker"
 	"github.com/jmoiron/sqlx"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

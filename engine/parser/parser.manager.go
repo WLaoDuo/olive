@@ -1,6 +1,6 @@
 package parser
 
-import l "github.com/go-olive/olive/engine/log"
+import l "github.com/WLaoDuo/olive/engine/log"
 
 var SharedManager = &Manager{}
 

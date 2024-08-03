@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/WLaoDuo/olive/app/tooling/olive-admin/commands"
+	"github.com/WLaoDuo/olive/business/sys/database"
+	"github.com/WLaoDuo/olive/foundation/logger"
 	"github.com/ardanlabs/conf/v3"
-	"github.com/go-olive/olive/app/tooling/olive-admin/commands"
-	"github.com/go-olive/olive/business/sys/database"
-	"github.com/go-olive/olive/foundation/logger"
 	"go.uber.org/zap"
 )
 

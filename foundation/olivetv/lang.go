@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-olive/olive/foundation/olivetv/util"
+	"github.com/WLaoDuo/olive/foundation/olivetv/util"
 )
 
 func init() {

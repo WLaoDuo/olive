@@ -3,12 +3,12 @@ package kernel
 import (
 	"context"
 
-	"github.com/go-olive/olive/engine/config"
-	"github.com/go-olive/olive/engine/dispatcher"
-	"github.com/go-olive/olive/engine/monitor"
-	"github.com/go-olive/olive/engine/recorder"
-	"github.com/go-olive/olive/engine/uploader"
-	"github.com/go-olive/olive/foundation/syncmap"
+	"github.com/WLaoDuo/olive/engine/config"
+	"github.com/WLaoDuo/olive/engine/dispatcher"
+	"github.com/WLaoDuo/olive/engine/monitor"
+	"github.com/WLaoDuo/olive/engine/recorder"
+	"github.com/WLaoDuo/olive/engine/uploader"
+	"github.com/WLaoDuo/olive/foundation/syncmap"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/sirupsen/logrus"
 )

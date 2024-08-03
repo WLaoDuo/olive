@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-olive/olive/business/data/dbschema"
-	"github.com/go-olive/olive/business/sys/database"
+	"github.com/WLaoDuo/olive/business/data/dbschema"
+	"github.com/WLaoDuo/olive/business/sys/database"
 )
 
 // Seed loads test data into the database.

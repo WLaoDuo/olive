@@ -6,8 +6,8 @@ import (
 	_ "embed" // Calls init function.
 	"fmt"
 
+	"github.com/WLaoDuo/olive/business/sys/database"
 	"github.com/ardanlabs/darwin"
-	"github.com/go-olive/olive/business/sys/database"
 	"github.com/jmoiron/sqlx"
 )
 

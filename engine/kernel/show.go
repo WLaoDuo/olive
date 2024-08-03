@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/go-olive/olive/engine/config"
+	"github.com/WLaoDuo/olive/engine/config"
 	"github.com/google/uuid"
 	jsoniter "github.com/json-iterator/go"
 )

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-olive/olive/foundation/biliup"
+	"github.com/WLaoDuo/olive/foundation/biliup"
 )
 
 func main() {

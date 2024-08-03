@@ -16,21 +16,21 @@ builds:
 
     goos:
       - linux
-      - darwin
+      # - darwin
       - windows
-      - freebsd
-      - openbsd
+      # - freebsd
+      # - openbsd
     goarch:
       - amd64
       - 386
-      - arm
-      - arm64
-      - ppc64le
-      - s390x
-    goarm:
-      - 7
-      - 6
-      - 5
+      # - arm
+      # - arm64
+      # - ppc64le
+      # - s390x
+    # goarm:
+    #   - 7
+    #   - 6
+    #   - 5
     ignore:
       - goos: darwin
         goarch: 386

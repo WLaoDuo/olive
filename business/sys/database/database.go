@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-olive/olive/foundation/web"
+	"github.com/WLaoDuo/olive/foundation/web"
 	"github.com/jmoiron/sqlx"
 	"github.com/lib/pq" // Calls init function.
 	"go.uber.org/zap"

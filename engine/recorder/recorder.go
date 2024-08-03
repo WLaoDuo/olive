@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/go-olive/olive/engine/config"
-	"github.com/go-olive/olive/engine/enum"
-	"github.com/go-olive/olive/engine/parser"
-	"github.com/go-olive/olive/engine/uploader"
+	"github.com/WLaoDuo/olive/engine/config"
+	"github.com/WLaoDuo/olive/engine/enum"
+	"github.com/WLaoDuo/olive/engine/parser"
+	"github.com/WLaoDuo/olive/engine/uploader"
 	"github.com/sirupsen/logrus"
 )
 

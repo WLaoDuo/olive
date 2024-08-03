@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/go-olive/olive/foundation/olivetv"
+	"github.com/WLaoDuo/olive/foundation/olivetv"
 	"github.com/spf13/cobra"
 )
 

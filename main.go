@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/go-olive/olive/command"
+	"github.com/WLaoDuo/olive/command"
 )
 
 func main() {

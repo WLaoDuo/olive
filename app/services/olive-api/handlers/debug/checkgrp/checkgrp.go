@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/go-olive/olive/business/sys/database"
+	"github.com/WLaoDuo/olive/business/sys/database"
 	"github.com/jmoiron/sqlx"
 	jsoniter "github.com/json-iterator/go"
 	"go.uber.org/zap"

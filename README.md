@@ -3,10 +3,10 @@
 </p>
 
 [![GoDoc](https://img.shields.io/badge/GoDoc-Reference-blue?style=for-the-badge&logo=go)](https://pkg.go.dev/github.com/go-olive/olive?tab=doc)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/go-olive/olive/release.yml?branch=v0.6.0&style=for-the-badge)](https://github.com/go-olive/olive/actions/workflows/release.yml)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/go-olive/olive/release.yml?branch=v0.6.0&style=for-the-badge)](https://github.com/WLaoDuo/olive/actions/workflows/release.yml)
 [![Sourcegraph](https://img.shields.io/badge/view%20on-SG-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/go-olive/olive)
-[![Github All Releases](https://img.shields.io/github/downloads/go-olive/olive/total.svg?style=for-the-badge)](https://github.com/go-olive/olive/releases)
-[![License](https://img.shields.io/github/license/go-olive/olive?style=for-the-badge)](https://github.com/go-olive/olive/blob/main/LICENSE)
+[![Github All Releases](https://img.shields.io/github/downloads/go-olive/olive/total.svg?style=for-the-badge)](https://github.com/WLaoDuo/olive/releases)
+[![License](https://img.shields.io/github/license/go-olive/olive?style=for-the-badge)](https://github.com/WLaoDuo/olive/blob/main/LICENSE)
 
 [简体中文](https://go-olive.github.io/) | English
 
@@ -24,7 +24,7 @@
 
   `go install github.com/go-olive/olive@latest`
 
-- download from [**releases**](https://github.com/go-olive/olive/releases)
+- download from [**releases**](https://github.com/WLaoDuo/olive/releases)
 
 - docker image
   `docker pull luxcgo/olive`
@@ -67,4 +67,4 @@ Use "olive [command] --help" for more information about a command.
 
 ## License
 
-This project is under the Apache-2.0. See the [LICENSE](https://github.com/go-olive/olive/blob/main/LICENSE) file for the full license text.
+This project is under the Apache-2.0. See the [LICENSE](https://github.com/WLaoDuo/olive/blob/main/LICENSE) file for the full license text.

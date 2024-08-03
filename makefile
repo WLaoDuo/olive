@@ -40,7 +40,7 @@ tidy:
 	go mod vendor
 
 build:
-	go run -ldflags="-X github.com/go-olive/olive/command.build=${VERSION}" *.go
+	go run -ldflags="-X github.com/WLaoDuo/olive/command.build=${VERSION}" *.go
 
 # ==============================================================================
 # Running from within k8s/kind

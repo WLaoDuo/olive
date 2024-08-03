@@ -3,8 +3,8 @@ package show
 import (
 	"unsafe"
 
-	"github.com/go-olive/olive/business/core/show/db"
-	"github.com/go-olive/olive/engine/kernel"
+	"github.com/WLaoDuo/olive/business/core/show/db"
+	"github.com/WLaoDuo/olive/engine/kernel"
 )
 
 // Show represents an individual show.

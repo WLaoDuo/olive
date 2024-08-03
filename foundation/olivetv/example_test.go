@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/go-olive/olive/foundation/olivetv"
+	"github.com/WLaoDuo/olive/foundation/olivetv"
 )
 
 func ExampleTV() {

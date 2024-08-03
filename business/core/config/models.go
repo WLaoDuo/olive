@@ -4,7 +4,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/go-olive/olive/business/core/config/db"
+	"github.com/WLaoDuo/olive/business/core/config/db"
 )
 
 // Config represents an individual config.
