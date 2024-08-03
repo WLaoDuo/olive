@@ -38,6 +38,8 @@ func (s *Show) CheckAndFix(cfg *config.Config) {
 			"twitch",
 			"streamlink":
 			s.Parser = "streamlink"
+		case "stripchat":
+			s.Parser = "ffmpeg"
 		default:
 			s.Parser = "flv"
 		}
