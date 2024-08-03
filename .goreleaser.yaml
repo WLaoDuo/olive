@@ -12,7 +12,7 @@ builds:
       - CGO_ENABLED=0
       
     ldflags:
-      - -s -w -X github.com/go-olive/olive/command.build={{.Tag}}
+      - -s -w -X github.com/WLaoDuo/olive/command.build={{.Tag}}
 
     goos:
       - linux
