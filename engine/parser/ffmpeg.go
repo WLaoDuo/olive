@@ -53,14 +53,17 @@ func (p *ffmpeg) Parse(streamURL string, out string) (err error) {
 		"ffmpeg",
 		"-nostats",
 		"-progress", "-",
-		"-y", "-re",
+		"-y", 
+		// "-re",
 		"-user_agent", userAgent,
 		// "-referer", live.GetRawUrl(),
 		// "-timeout", "60000000",
 		"-i", streamURL,
-		"-c", "copy",
-		"-bsf:a", "aac_adtstoasc",
+		"-c", "copy", //所有流(视频、音频、字幕等) copy
+		// "-bsf:a", "aac_adtstoasc",
 		//"-f", "flv",
+		"-rtbufsize", "10M", //实时缓冲区，默认3M
+		"-copyts", //复制时间戳
 		out,
 	)
 	// p.cmd.Stderr = os.Stderr
