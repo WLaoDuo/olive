@@ -1,3 +1,5 @@
+version: 2
+
 project_name: olive
 
 before:
@@ -41,8 +43,8 @@ builds:
       - goos: freebsd
         goarch: arm64
 
-changelog:
-  skip: true
+# changelog:
+#   skip: true
 
 archives:
   - id: olive

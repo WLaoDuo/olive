@@ -1,4 +1,4 @@
-name: goreleaser
+name: goreleaser-action
 
 on:
   push:
@@ -28,10 +28,10 @@ jobs:
           go-version: stable
       -
         name: Run GoReleaser
-        uses: goreleaser/goreleaser-action@v5
+        uses: goreleaser/goreleaser-action@v6 #https://github.com/goreleaser/goreleaser-action
         with:
           distribution: goreleaser
-          version: latest
+          version: "~> v2" # or 'latest', 'nightly', semver
           args: release --clean
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
