@@ -51,9 +51,11 @@ func (p *ffmpeg) Parse(streamURL string, out string) (err error) {
 
 	p.cmd = exec.Command(
 		"ffmpeg",
+		"-http_proxy", "http://127.0.0.1:7890",
+		"-copyts", //复制时间戳
 		"-nostats",
 		"-progress", "-",
-		"-y", 
+		"-y",
 		// "-re",
 		"-user_agent", userAgent,
 		// "-referer", live.GetRawUrl(),
@@ -63,7 +65,6 @@ func (p *ffmpeg) Parse(streamURL string, out string) (err error) {
 		// "-bsf:a", "aac_adtstoasc",
 		//"-f", "flv",
 		"-rtbufsize", "10M", //实时缓冲区，默认3M
-		"-copyts", //复制时间戳
 		out,
 	)
 	// p.cmd.Stderr = os.Stderr
