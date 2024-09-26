@@ -1,11 +1,12 @@
 package olivetv
 
 import (
-	"fmt"
 	"regexp"
 	"time"
 
+	l "github.com/WLaoDuo/olive/engine/log"
 	"github.com/parnurzeal/gorequest"
+	"github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 )
 
@@ -37,7 +38,12 @@ func get_modelId(modleName string, daili string) string {
 
 	// 处理响应
 	if len(errs) > 0 {
-		fmt.Println("请求modelID出错:", body, errs)
+		// fmt.Println("请求modelID出错:", body, errs)
+		l.Logger.WithFields(logrus.Fields{
+			// "streamURL": streamURL,
+			"get body": body,
+			"errs":     errs,
+		}).Debug("请求modelID出错")
 		return "false"
 	} else {
 		// 解析 JSON 响应
