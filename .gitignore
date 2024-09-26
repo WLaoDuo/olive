@@ -27,3 +27,4 @@ trash/
 main
 vendor/
 pgdata
+dist/
