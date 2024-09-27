@@ -104,6 +104,7 @@ func init() {
 
 type stripchat struct {
 	base
+	m3u8Url string
 }
 
 func (this *stripchat) Name() string {
@@ -122,7 +123,12 @@ func (this *stripchat) set(tv *TV) error {
 	modelName := tv.RoomID
 	proxy := "http://127.0.0.1:7890"
 	modelID := get_modelId(modelName, proxy)
-	m3u8 := get_M3u8(modelID, proxy)
+	m3u8 := "false"
+	if this.m3u8Url != "" {
+		m3u8 = this.m3u8Url
+	} else {
+		m3u8 = get_M3u8(modelID, proxy)
+	}
 	m3u8Status := test_m3u8(m3u8, proxy)
 	if modelID == "false" {
 		return nil
@@ -136,6 +142,8 @@ func (this *stripchat) set(tv *TV) error {
 	}
 
 	if m3u8 != "false" {
+		this.m3u8Url = m3u8
+
 		tv.roomName = modelName
 		tv.streamerName = modelID
 		tv.roomOn = m3u8Status

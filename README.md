@@ -35,6 +35,7 @@ Get **olive** to work simply by passing the live url.
 
 ```sh
 $ olive run -u https://www.huya.com/518512
+$ olive run -f xxx.toml
 ```
 
 ## Usage
